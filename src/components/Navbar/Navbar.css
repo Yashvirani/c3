@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5vh;
+  padding-left: 2vw;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+}
+.today,
+.practice,
+.courses {
+  text-decoration: none;
+  color: #341f1f;
+}
+
+.links {
+  display: flex;
+  width: 37vw;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 15vw;
+}
+
+.navtext {
+  font-size: 0.7wh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbtn1 {
+  width: 15vw;
+  background: white;
+  color: #035be5;
+  border-color: #00ace6;
+  height: 5vh;
+  margin-right: 2vw;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.navbtn1 {
+  cursor: pointer;
+}
+
+.navbtn2 {
+  width: 15vw;
+  background: #00ace6;
+  border-width: 1px;
+  border-radius: 5px;
+  color: white;
+  border-color: #00ace6;
+}
+
+.navbtn2:hover {
+  background: #035be5;
+  cursor: pointer;
+}
+
+.auth {
+  margin-left: 90px;
+  display: flex;
+}
