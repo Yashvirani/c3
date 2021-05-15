@@ -65,6 +65,120 @@ function Courses() {
                     text="Strech the information you're given as far as it can go!"/>
                 </div>
             </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">2</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Rational Detactives</p>
+                        <p className="second_txt2">Eliminate the impossible and uncover the truth! Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="4.jpg"
+                    title="Riddles of Order"
+                    text="What order do these racers finish in?"/>
+                    <Card 
+                    image="5.jpg"
+                    title="Crafty Counting"
+                    text="Learn strategies for counting that go for beyond just counting."/>
+                    <Card 
+                    image="6.jpg"
+                    title="Mystery Containers"
+                    text="What's in each of these mystery boxes?"/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="7.jpg"
+                    title="Futoshiki"
+                    text="Arrange the numbers to match the inequalities."/>
+                    <Card 
+                    image="8.jpg"
+                    title="Shuffles"
+                    text="Where did everything get shuffled to?"/>
+                    <Card 
+                    image="9.jpg"
+                    title="False Information"
+                    text="Solve problems where the people giving you hints might be lying."/>
+                </div>
+            </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">3</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Puzzles and Riddles</p>
+                        <p className="second_txt2">Even trickier puzzles and the tools you need to solve them. Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="10.jpg"
+                    title="Werewolves"
+                    text="Who's a werewolf?"/>
+                    <Card 
+                    image="11.jpg"
+                    title="Logical Language"
+                    text="Explore the use of logical words and , or and not."/>
+                    <Card 
+                    image="12.jpg"
+                    title="If A, then B"
+                    text="If you do this quiz, you will learn about sentences like this one."/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="13.jpg"
+                    title="Elimination Grids."
+                    text="Solve classic logic elimination puzzles."/>
+                    <Card 
+                    image="14.jpg"
+                    title="Jigsaw Map"
+                    text="Where do the pieces go on the map?"/>
+                    
+                </div>
+            </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">4</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Multi-Level Thinking</p>
+                        <p className="second_txt2">If you know that I know that you know... what then? Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="15.jpg"
+                    title="Riddles of Order"
+                    text="What order do these racers finish in?"/>
+                    <Card 
+                    image="16.jpg"
+                    title="Crafty Counting"
+                    text="Learn strategies for counting that go for beyond just counting."/>
+                    <Card 
+                    image="17.jpg"
+                    title="Mystery Containers"
+                    text="What's in each of these mystery boxes?"/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="18.jpg"
+                    title="Futoshiki"
+                    text="Arrange the numbers to match the inequalities."/>
+                    <Card 
+                    image="19.jpg"
+                    title="Shuffles"
+                    text="Where did everything get shuffled to?"/>
+                    <Card 
+                    image="20.jpg"
+                    title="False Information"
+                    text="Solve problems where the people giving you hints might be lying."/>
+                </div>
+            </div>
         </div>
     )
 }
