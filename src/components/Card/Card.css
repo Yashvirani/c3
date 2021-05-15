@@ -1,0 +1,28 @@
+.lpy {
+  width: 25vw;
+  border: none;
+  margin-bottom: 5vh;
+  margin-left: 1vw;
+}
+
+.lpy:hover {
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+}
+
+.plo {
+  width: 22vw;
+}
+
+.bor {
+  border-bottom: 5px solid #f0f0f0;
+  font-size: 14px;
+  padding-bottom: 7vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1vh;
+}

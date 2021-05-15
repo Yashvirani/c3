@@ -1,8 +1,11 @@
 import React from 'react';
 import './Courses.css';
 import { BrowserRouter as Router ,Switch,Route,Link } from 'react-router-dom';
+import Card from '../Card/Card';
+import {useState} from 'react';
 
 function Courses() {
+    const [intro,setIntro] = useState({})
     return (
         <div className="courses">
             <div className="first">
@@ -35,6 +38,31 @@ function Courses() {
                         <button type="submit" className="btn3">Start Course</button>
                     </div>
                 </div>
+                </div>
+            </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">1</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Introduction</p>
+                        <p className="second_txt2">Put your logic to the test with these warmups!</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="1.jpg"
+                    title="Warmup Puzzles"
+                    text="Get started with some logic warmups"/>
+                    <Card 
+                    image="2.jpg"
+                    title="Truth Seeking"
+                    text="Who or what is telling the truth?"/>
+                    <Card 
+                    image="3.jpg"
+                    title="Strategic Deductions"
+                    text="Strech the information you're given as far as it can go!"/>
                 </div>
             </div>
         </div>
