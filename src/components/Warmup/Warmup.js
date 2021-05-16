@@ -14,7 +14,7 @@ import Extra3 from './Extra3/Extra3';
 import Extra4 from './Extra4/Extra4';
 
 function Warmup() {
-    let [count,setCount] = useState(0);
+    let [count,setCount] = useState(1);
     let [disabled1,setDisabled1] = useState(false);
     let [disabled2,setDisabled2] = useState(false);
 
