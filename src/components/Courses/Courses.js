@@ -153,8 +153,8 @@ function Courses() {
                 <div className="intro">
                     <Card 
                     image="15.jpg"
-                    title="Riddles of Order"
-                    text="What order do these racers finish in?"/>
+                    title="Perfect Information"
+                    text="What order do these racers finishIf everyone follows the same logic, can you find out what they know? in?"/>
                     <Card 
                     image="16.jpg"
                     title="Crafty Counting"
@@ -178,7 +178,132 @@ function Courses() {
                     title="False Information"
                     text="Solve problems where the people giving you hints might be lying."/>
                 </div>
+                
             </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">5</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Competitive Games</p>
+                        <p className="second_txt2">What will your opponent do? Logic it out! Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="21.jpg"
+                    title="Competitive Games"
+                    text="Don't take the last chocolate!"/>
+                    <Card 
+                    image="22.jpg"
+                    title="Luk Tsut K'i"
+                    text="Find the complete solution to a classic game"/>
+                    <Card 
+                    image="23.jpg"
+                    title="Puppies and Kittens"
+                    text="Solve a fuzzier, livelier variant of the poisoned chocolate game."/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="24.jpg"
+                    title="Poisoned Chocolate II"
+                    text="What happens when the chocolate comes in rectangles?"/>
+                    <Card 
+                    image="25.jpg"
+                    title="Game Search Algorithms"
+                    text="Learn how simple AI systems approach game strategy"/>
+                </div>
+                
+            </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">6</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Logic Machines</p>
+                        <p className="second_txt2">Turn logic into arithmetic machines. Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="26.jpg"
+                    title="Truth Tables"
+                    text="Diagram out the meanings of each logical operator."/>
+                    <Card 
+                    image="27.jpg"
+                    title="Basic Logic Gates"
+                    text="How do AND, OR, and NOT gates work?"/>
+                    <Card 
+                    image="28.jpg"
+                    title="Combinations"
+                    text="Combine gates together to make complex circuits."/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="29.jpg"
+                    title="Fredkin Gates"
+                    text="Take a peek at a gate used in biological and quantum computing."/>
+                    <Card 
+                    image="30.jpg"
+                    title="Binary Numbers and Addition"
+                    text="How does computer arithmetic work?"/>
+                    <Card 
+                    image="31.jpg"
+                    title="Creating a Mechanical Adder"
+                    text="Use what you've learned about logic gates to create a circuit that adds numbers."/>
+                </div>
+                
+            </div>
+            <div className="second">
+                <div className="second_">
+                    <div className="second1">
+                        <p className="co">7</p>
+                    </div>
+                    <div className="second2">
+                        <p className="second_txt1">Advanced Knights and Knaves</p>
+                        <p className="second_txt2">Uncover liars on this island of logic! Collapse</p>
+                    </div>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="32.jpg"
+                    title="Indirection"
+                    text="Can you trick a liar into telling you the truth?"/>
+                    <Card 
+                    image="33.jpg"
+                    title="Knights and Knaves En Masse"
+                    text="What happens when you try to do logic at a big island party?"/>
+                    <Card 
+                    image="34.jpg"
+                    title="Jokers"
+                    text="Solve tricky variants of knights and knaves puzzles where some residents can behave like either."/>
+                </div>
+                <div className="intro">
+                    <Card 
+                    image="35.jpg"
+                    title="Other Variations"
+                    text="Twist your mind around these unusual variants."/>
+                    <Card 
+                    image="36.jpg"
+                    title="Humans and Vampires"
+                    text="Now there are four types of island resident: can you still work out the truth?"/>
+                    <Card 
+                    image="37.jpg"
+                    title="Challenges"
+                    text="Challenge yourself with our hardest selection of logic puzzles."/>
+                </div>
+                
+            </div>
+            <div className="foot">
+                <p>NEXT STEPS</p>
+                <div className="foot1">
+                    
+                   <img src="38.jpg" className="footimg"alt="" />
+                </div>
+            </div>
+            
         </div>
     )
 }

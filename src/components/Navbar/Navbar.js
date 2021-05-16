@@ -16,7 +16,7 @@ function Navbar() {
                 </div>
                 <div className="courses_">
                     <Link className="courses" to="/courses">
-                        <p className="navtext">COURSES</p>
+                        <p className="navtext bok">COURSES</p>
                     </Link>
                 </div>
                 <div className="practice_">
