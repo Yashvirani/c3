@@ -16,9 +16,13 @@ List of all dependencies could also be found in package.json file with this proj
 
 ## For running this project in your local machine
 
-Clone this project on your local machine using :
+(1)Clone this project on your local machine using :
 
 ### `git clone https://github.com/Yashvirani/c3.git`
+
+(2) In your project directory run the following command to install all the dependencies of this project:-
+
+### `npm install`
 
 # Getting Started with Create React App
 
