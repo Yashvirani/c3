@@ -1,0 +1,48 @@
+.box1,
+.box2,
+.box3 {
+  width: 11vw;
+  height: 30vh;
+  border: 3px dashed lightgray;
+  border-radius: 10px;
+}
+
+.warmup1game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 4vw;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+
+.jmn > p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.jmn > ul > li {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.images > img {
+  width: 20%;
+}
+
+.images {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

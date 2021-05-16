@@ -19,6 +19,8 @@
   display: flex;
   width: 37vw;
   justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3vh;
 }
 
 .logo {
@@ -60,6 +62,8 @@
 }
 
 .auth {
-  margin-left: 90px;
+  position: relative;
+  margin-right: auto;
   display: flex;
+  padding-left: 7vw;
 }
