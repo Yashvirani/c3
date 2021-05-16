@@ -74,12 +74,12 @@ function Warmup() {
                         }} disabled={disabled1}>
                             <ChevronLeftIcon />
                         </IconButton>
-                        <span  style={{background:(count == 1) ?'yellow':'lightgray',height:'3vh',width:'3vw'}}></span>
-                        <span  style={{backGround:(count == 2) ?"yellow":"red",height:'3vh',width:'3vw'}}></span>
-                        <div  style={{backGroundColor:(count == 3) ?'yellow':'lightgray',height:'3vh',width:'3vw'}}></div>
-                        <div  style={{backGroundColor:(count == 4) ?'yellow':'lightgray',height:'3vh',width:'3vw'}}></div>
-                        <div  style={{backGroundColor:(count == 5) ?'yellow':'lightgray',height:'3vh',width:'3vw'}}></div>
-                        <div  style={{backGroundColor:(count == 6) ?'yellow':'lightgray',height:'3vh',width:'3vw'}}></div>
+                        <div  className="sli" style={{backgroundColor:(count == 1) ?'#FFC500':'#C7BFBF',height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
+                        <div className="sli"  style={{backgroundColor:(count == 2) ?"#FFC500":"#C7BFBF",height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
+                        <div className="sli"  style={{backgroundColor:(count == 3) ?'#FFC500':'#C7BFBF',height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
+                        <div className="sli"  style={{backgroundColor:(count == 4) ?'#FFC500':'#C7BFBF',height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
+                        <div className="sli"  style={{backgroundColor:(count == 5) ?'#FFC500':'#C7BFBF',height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
+                        <div className="sli"  style={{backgroundColor:(count == 6) ?'#FFC500':'#C7BFBF',height:'3vh',width:'3vw',marginLeft:'1px'}}></div>
                         <IconButton onClick={() => {
                             setCount(count = count + 1);
                             setDisabled1(false);

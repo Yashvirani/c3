@@ -94,3 +94,7 @@
   user-select: none;
   color: lightgrey;
 }
+
+.sli:hover {
+  height: 4vh;
+}
