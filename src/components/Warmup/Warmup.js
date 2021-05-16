@@ -9,6 +9,9 @@ import {Avatar,IconButton} from "@material-ui/core";
 import Warmup4 from './Warmup4/Warmup4';
 import Warmup5 from './Warmup5/Warmup5';
 import Warmup6 from './Warmup6/Warmup6';
+import Extra2 from './Extra2/Extra2';
+import Extra3 from './Extra3/Extra3';
+import Extra4 from './Extra4/Extra4';
 
 function Warmup() {
     let [count,setCount] = useState(0);
@@ -16,11 +19,14 @@ function Warmup() {
     let [disabled2,setDisabled2] = useState(false);
 
     let content = <Warmup1 />
+    let content2 = null;
     if(count == 2){
         content = <Warmup2 />
+        content2 = <Extra2 />
     }
     if(count == 3){
         content = <Warmup3 />
+        content2 = <Extra3 />
     }
     if(count == 4){
         content = <Warmup4 />
@@ -30,6 +36,7 @@ function Warmup() {
     }
     if(count == 6){
         content = <Warmup6 />
+        content2 = <Extra4 />
     }
     
 
@@ -91,6 +98,7 @@ function Warmup() {
                         </IconButton>
                     </div>
                 </div>
+                {content2}
             </div>
             
         </div>

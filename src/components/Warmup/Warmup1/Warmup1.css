@@ -7,6 +7,13 @@
   border-radius: 10px;
 }
 
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  border: 3px dashed #00ace6;
+  cursor: pointer;
+}
+
 .warmup1game {
   display: flex;
   flex-direction: column;
@@ -38,6 +45,7 @@
 
 .images > img {
   width: 20%;
+  cursor: grab;
 }
 
 .images {
