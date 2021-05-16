@@ -1,4 +1,5 @@
-List all the dependencies:-
+# List all the dependencies:-
+
 "@material-ui/core": "^4.11.4",
 "@material-ui/icons": "^4.11.2",
 "@testing-library/jest-dom": "^5.12.0",
@@ -12,6 +13,12 @@ List all the dependencies:-
 
 In addition to that Bootstrap Cards is also used for this project.
 List of all dependencies could also be found in package.json file with this project.
+
+## For running this project in your local machine
+
+Clone this project on your local machine using :
+
+### `git clone https://github.com/Yashvirani/c3.git`
 
 # Getting Started with Create React App
 
