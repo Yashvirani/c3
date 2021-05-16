@@ -24,6 +24,10 @@ List of all dependencies could also be found in package.json file with this proj
 
 ### `npm install`
 
+(3) To start the project on your local server use the following command on your project directory:-
+
+### `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
