@@ -1,3 +1,18 @@
+List all the dependencies:-
+"@material-ui/core": "^4.11.4",
+"@material-ui/icons": "^4.11.2",
+"@testing-library/jest-dom": "^5.12.0",
+"@testing-library/react": "^11.2.7",
+"@testing-library/user-event": "^12.8.3",
+"react": "^17.0.2",
+"react-dom": "^17.0.2",
+"react-router-dom": "^5.2.0",
+"react-scripts": "4.0.3",
+"web-vitals": "^1.1.2"
+
+In addition to that Bootstrap Cards is also used for this project.
+List of all dependencies could also be found in package.json file with this project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
