@@ -28,6 +28,16 @@ List of all dependencies could also be found in package.json file with this proj
 
 ### `npm start`
 
+## Routes in this project
+
+(1) Below route is for https://brilliant.org/courses/logic-deduction/
+
+### "http://localhost:3000/"
+
+(2) Below route is for https://brilliant.org/practice/warmup-puzzles-6/?chapter=introduction-54
+
+### "http://localhost:3000/warmup"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
