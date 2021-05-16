@@ -1,0 +1,94 @@
+.box1,
+.box2,
+.box3 {
+  width: 9vw;
+  height: 30vh;
+  border: 3px dashed lightgray;
+  border-radius: 10px;
+}
+
+.warmup5game {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 4vw;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+
+.jmn > p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.jmn > ul > li {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.images > img {
+  width: 16%;
+}
+
+.images {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.but {
+  width: 50vw;
+  display: flex;
+  margin-top: 8vh;
+}
+
+.but1 {
+  width: 24vw;
+  color: #180000;
+  background: white;
+  border-radius: 5px;
+  border-width: 1px;
+  font-weight: 600;
+  height: 6.5vh;
+}
+
+.but2 {
+  width: 24vw;
+  margin-left: 4vw;
+  color: white;
+  background: lightgray;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+
+.mk {
+  padding-top: 1vh;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  background: #fbfbfb;
+}
+
+.rfv {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 2vh;
+}
+
+.boxhj {
+  color: lightgray;
+  margin-left: 3vw;
+  margin-top: 12vh;
+}

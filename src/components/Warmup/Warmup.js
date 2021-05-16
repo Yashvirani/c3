@@ -4,7 +4,11 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import Warmup1 from './Warmup1/Warmup1';
 import Warmup2 from './Warmup2/Warmup2';
+import Warmup3 from './Warmup3/Warmup3';
 import {Avatar,IconButton} from "@material-ui/core";
+import Warmup4 from './Warmup4/Warmup4';
+import Warmup5 from './Warmup5/Warmup5';
+import Warmup6 from './Warmup6/Warmup6';
 
 function Warmup() {
     let [count,setCount] = useState(0);
@@ -15,7 +19,18 @@ function Warmup() {
     if(count == 2){
         content = <Warmup2 />
     }
-
+    if(count == 3){
+        content = <Warmup3 />
+    }
+    if(count == 4){
+        content = <Warmup4 />
+    }
+    if(count == 5){
+        content = <Warmup5 />
+    }
+    if(count == 6){
+        content = <Warmup6 />
+    }
     
 
     return (
